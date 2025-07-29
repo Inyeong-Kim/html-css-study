@@ -1,0 +1,60 @@
+/*첫번째 챌린지*/
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.box-green {
+  border: 50px solid green;
+  width: 200px;
+  padding: 50px;
+  margin-bottom: 20px;
+  /*보너스1: border-color:#F4A0A0; */
+
+  /*보너스2: display:none;
+    display:none은 공간을 차지하지 않고, visibility:hidden 은 공간을 차지함*/
+}
+.box-blue {
+  border: 50px solid blue;
+  width: 200px;
+  padding: 50px;
+}
+
+/*두번째 챌린지*/
+h1 {
+  color: #9b59b6;
+}
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+h1::before {
+  content: "Topic:";
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding-left: 10%;
+}
+h1:first-child {
+  text-align: center;
+}
