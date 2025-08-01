@@ -1,0 +1,87 @@
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: black;
+    color:white;
+}
+
+.boxbig{
+    width:200px;
+    height:200px;
+    background-color: gray;
+    color:white;
+}
+.boxbig2{
+    width:200px;
+    height:200px;
+    background-color: black;
+    color:white;
+}
+.boxbigger{
+    width:300px;
+    height:150px;
+    background-color:gray;
+    color:white;
+}
+
+.Q1mother1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Q1mother2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Q1-day2-margin{
+    margin-right: 5px;
+}
+.Q2mother1{
+    display:flex;
+    flex-direction: column;
+    
+}
+.Q2-day2-align{
+    display:flex;
+    justify-content:center;
+}
+.Q2-day3-align{
+    display:flex;
+    justify-content:flex-end;
+}
+.Q3boxlocate{
+    position:relative;
+    right:150px;
+    top:50px;
+ 
+}
+.Q3mother{
+    display:flex;
+    justify-content: center;
+}
+.Q4boxlocate{
+    position:relative;
+    left:100px;
+    bottom:100px;
+}
+.Q5mother{
+    position: relative;
+}
+.Q5-day1-locate{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+.Q5-day2-locate{
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.Q5-day3-locate{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
