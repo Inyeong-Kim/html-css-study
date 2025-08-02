@@ -1,0 +1,210 @@
+body{
+    margin:0px;
+}
+
+.nav{
+    height:80px;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.main{
+    height:969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.footer{
+    height:530px;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+
+}
+
+
+.img-spotify{
+    width:132px;
+    height:44.98px;
+
+}
+
+.navitems{
+    padding: 28px 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.navitems:hover:not(.navitems-bar){
+    color:#1ed760;
+}
+.headline{
+    position: relative;
+    left: 225px;
+}
+.headline1{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    position:relative;
+    left: -2.5em;
+    
+}
+
+.headline2{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-bottom: 40px;
+    
+}
+
+.sub-headline{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    color: #1ed760;
+   
+
+
+}
+.main-button{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+.main-button:hover{
+    transform:scale(1.1)
+}
+.menucontainer{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.menubox1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.menubox2{
+    width:40%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.footermenu{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.sub-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.footer-menu-items{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.footer-menu-items:hover{
+    color: #1ed760;
+}
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconstyle{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.iconstyle:hover{
+    color:#2de26d;
+}
+.nationcontainer{
+    width:1170px;
+    height:14px;
+
+   
+}
+.nationmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #919496;
+    font-size: 14px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.bottomcontainer{
+    width: 1170px;
+    height: 18px;
+    margin: 12px 0px 0px;
+    
+
+}
+.bottombox1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.bottomitems{
+    color: #919496;
+    text-decoration: none;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-right: 24px;
+}
+.bottomitems:hover{
+    color: #1ed760;
+}
+.bottombox2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.bottomitems2{
+    color: #919496;
+    text-decoration: none;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
